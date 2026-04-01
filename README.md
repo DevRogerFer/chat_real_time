@@ -15,7 +15,7 @@ O objetivo deste projeto não é ser um chat completo de prodção, mas sim most
 - Python 3
 - Socket TCP (`socket`) para comunicação em rede
 - Threads (`threading`) para concorrência
-- Tkinter para interface grafica do cliente
+- Tkinter para interface gráfica do cliente
 
 ## Estrutura do Projeto
 
