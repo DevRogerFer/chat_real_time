@@ -53,6 +53,6 @@ class Chat:
     def send_msg(self):
         message = self.send_message.get()
         self.client.send(message.encode())
-        self.text_box.delete('1.0', 'end') 
+        self.send_message.delete(0, 'end') 
 
 chat = Chat()
